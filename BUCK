@@ -1,3 +1,5 @@
+load('//:subdir_glob.bzl', 'subdir_glob')
+
 prebuilt_cxx_library(
   name = 'lest',
   header_only = True,
